@@ -1,0 +1,38 @@
+{
+  "name": "koa-server",
+  "version": "1.0.0",
+  "description": "Koa Server Example",
+  "main": "index.js",
+  "scripts": {
+    "start": " node ./index.js",
+    "lint": "./node_modules/.bin/eslint ./ --ext .js,.jsx --fix",
+    "test": "mocha --timeout 10000"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "12factor-config": "^2.0.0",
+    "dotenv": "^8.0.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa2-cors": "^2.0.6",
+    "koa2-router": "^1.1.2",
+    "nodemon": "^1.19.1",
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.10.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "mocha": "^6.1.4",
+    "mocha-ctx": "^1.0.0-a.2",
+    "nodemon": "^1.19.1"
+  }
+}
